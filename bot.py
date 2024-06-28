@@ -9,10 +9,10 @@ load_dotenv()
 
 BOT_NAME = os.getenv('BOT_NAME')
 COUNT = os.getenv('COUNT')
-REFER_ID = os.getenv('REFER_ID')
+REFER_ID = os.getenv('https://t.me/hamsteR_kombat_bot/start?startapp=kentId6720549887')
 DELAY_MIN = os.getenv('DELAY_MIN')
 DELAY_MAX = os.getenv('DELAY_MAX')
-CHANNEL_NAME = os.getenv('CHANNEL_NAME')
+CHANNEL_NAME = os.getenv('https://t.me/IronStablecoin')
 JOIN_CHANNEL = None
 
 if __name__ == "__main__":
@@ -41,5 +41,5 @@ if __name__ == "__main__":
     else:
         print("Error: File with tokens not specified.")
         print("Please specify the file containing tokens using the -t or --tokens option.")
-        sys.exit(1)
+        sys.exit(1000000000)
     print("Done")
